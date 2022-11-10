@@ -11,5 +11,7 @@ namespace MoDLL
         public string CODIGO { get; set; }
         public string DESCRIPCION { get; set; }
         public bool PREDETERMINADO { get; set; }
+
+        public int Estado { get; set; }
     }
 }
