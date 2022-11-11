@@ -13,5 +13,6 @@ namespace MoDLL
         public bool PREDETERMINADO { get; set; }
 
         public int Estado { get; set; }
+        //public bool Eliminar { get; set; }
     }
 }
