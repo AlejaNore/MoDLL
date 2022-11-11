@@ -10,5 +10,7 @@ namespace MoDLL
     {     
        public string CODUNIDAD { get; set; }
        public string DESCRIPCION { get; set; }
+
+       public int Estado { get; set; }
     }
 }
