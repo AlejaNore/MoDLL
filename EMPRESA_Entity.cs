@@ -11,5 +11,6 @@ namespace MoDLL
         public string CODEMPRESA { get; set; }
         public string NIT { get; set; }
         public string RAZONSOCIAL { get; set; }
+        public int Estado { get; set; }
     }
 }
