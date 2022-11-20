@@ -45,6 +45,8 @@
     <Compile Include="EMPRESA_Entity.cs" />
     <Compile Include="IVA_Entity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RETIVADET_Entity.cs" />
+    <Compile Include="RETIVA_Entity.cs" />
     <Compile Include="UNIDADES_Entity.cs" />
     <Compile Include="ZONAS_Entity.cs" />
   </ItemGroup>
