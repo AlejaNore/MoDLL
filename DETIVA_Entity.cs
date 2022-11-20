@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace MoDLL
 {
-    public class ZONAS_Entity
+    public class DETIVA_Entity
     {
-        public string CODIGO { get; set; }
-        public string DESCRIPCION { get; set; }
-        public bool PREDETERMINADO { get; set; }
+        public int ANO { get; set; }
+        public string CODIVA { get; set; }
+        public float TASAIVA { get; set; }
         public int Estado { get; set; }
     }
 }
