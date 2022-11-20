@@ -8,6 +8,7 @@ namespace MoDLL
 {
     public class IVA_Entity
     {
+        public string Tabla = "IVA";
         public string CODIVA { get; set; }
         public string DESCRIPCION { get; set; }
         public string FECODIVA { get; set; }

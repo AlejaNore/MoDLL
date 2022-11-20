@@ -8,6 +8,7 @@ namespace MoDLL
 {
     public class ZONAS_Entity
     {
+        public string Tabla = "ZONAS";
         public string CODIGO { get; set; }
         public string DESCRIPCION { get; set; }
         public bool PREDETERMINADO { get; set; }

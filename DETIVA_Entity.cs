@@ -8,6 +8,7 @@ namespace MoDLL
 {
     public class DETIVA_Entity
     {
+        public string Tabla = "DETIVA";
         public int ANO { get; set; }
         public string CODIVA { get; set; }
         public float TASAIVA { get; set; }
