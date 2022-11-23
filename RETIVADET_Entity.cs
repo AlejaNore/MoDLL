@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 namespace MoDLL
 {
     public class RETIVADET_Entity
-    { 
+    {
+        public string Tabla = "RETIVADET";
         public string CODRETIVA { get; set; }
         public int ANO { get; set; }
         public float BASE { get; set; }
