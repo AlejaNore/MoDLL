@@ -13,6 +13,6 @@ namespace MoDLL
         public string DESCRIPCION { get; set; }
         public string FECODRFIVA { get; set; }
         public string ACTIVO { get; set; }
-        public int Estado { get; set; }
+        public int Estado { get; set ; }
     }
 }
