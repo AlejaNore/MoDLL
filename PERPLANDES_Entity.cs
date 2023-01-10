@@ -10,6 +10,7 @@ namespace MoDLL
     {
         public string Tabla = "PERPLANDES";
         public string CODEMPRESA { get; set; }
+        public string CODSUCURSAL { get; set; }
         public int VERSION { get; set; }
         public int ANO { get; set; }
         public DateTime FECHA_INI { get; set; }
