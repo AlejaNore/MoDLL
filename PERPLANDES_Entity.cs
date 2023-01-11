@@ -8,13 +8,15 @@ namespace MoDLL
 {
     public class PERPLANDES_Entity
     {
-        public string Tabla = "PERPLANDES";
+        public string Tabla = "PLAPERPDS";
+        public int Estado { get; set; }
         public string CODEMPRESA { get; set; }
         public string CODSUCURSAL { get; set; }
         public int VERSION { get; set; }
-        public int ANO { get; set; }
-        public DateTime FECHA_INI { get; set; }
-        public DateTime FECHA_FIN { get; set; }
-        public int Estado { get; set; }
+        public int ANOINIVIG { get; set; }
+        public DateTime FECHAINI { get; set; }
+        public DateTime FECHAFIN { get; set; }
+        public Boolean ACTIVO { get; set; }
+        
     }
 }
