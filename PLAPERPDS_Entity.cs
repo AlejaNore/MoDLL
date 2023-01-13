@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MoDLL
 {
-    public class PERPLANDES_Entity
+    public class PLAPERPDS_Entity
     {
         public string Tabla = "PLAPERPDS";
         public int Estado { get; set; }
