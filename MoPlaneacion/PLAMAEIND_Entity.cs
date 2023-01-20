@@ -6,12 +6,15 @@ using System.Threading.Tasks;
 
 namespace MoDLL
 {
-    public class SUCURSAL_Entity
+    public class PLAMAEIND_Entity
     {
+        public string Tabla = "PLAMAEIND";
         public int Estado { get; set; }
         public string CODEMPRESA { get; set; }
         public string CODSUCURSAL { get; set; }
-        public string RAZONSOCIAL { get; set; }
-        
+        public string CODINDICADOR { get; set; }
+        public string DESCRIPCION { get; set; }
+        public string DESFORMULA { get; set; }
+        public float LINEABASE { get; set; }
     }
 }
