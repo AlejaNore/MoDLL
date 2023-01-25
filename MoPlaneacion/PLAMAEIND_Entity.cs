@@ -13,7 +13,7 @@ namespace MoDLL
         public string CODEMPRESA { get; set; }
         public string CODSUCURSAL { get; set; }
         public string CODINDICADOR { get; set; }
-        public string DESCRIPCION { get; set; }
+        public string DESINDICADOR { get; set; }
         public string DESFORMULA { get; set; }
         public float LINEABASE { get; set; }
     }
