@@ -17,6 +17,6 @@ namespace MoDLL
         public DateTime FECHAINI { get; set; }
         public DateTime FECHAFIN { get; set; }
         public string ACTIVO { get; set; }
-        public string ANOTEMP { get; set; }
+        public string ANOINIVIG_TEM { get; set; }
     }
 }
