@@ -16,5 +16,6 @@ namespace MoDLL
         public string DESINDICADOR { get; set; }
         public string DESFORMULA { get; set; }
         public float LINEABASE { get; set; }
+        public string CODINDICADOR_TEM { get; set; }
     }
 }
