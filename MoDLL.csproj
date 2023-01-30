@@ -46,6 +46,7 @@
     <Compile Include="MoConfiguracion\IVA_Entity.cs" />
     <Compile Include="MoPlaneacion\PLAMAEIND_Entity.cs" />
     <Compile Include="MoPlaneacion\PLAMAEMETA_Entity.cs" />
+    <Compile Include="MoPlaneacion\PLAPDSNIV_Entity.cs" />
     <Compile Include="MoPlaneacion\PLAPERPDS_Entity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="MoConfiguracion\RETIVADET_Entity.cs" />
