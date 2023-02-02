@@ -15,7 +15,7 @@ namespace MoDLL
         public string CODRESULTADO { get; set; }
         public string DESRESULTADO { get; set; }
         public string EXPLICACION { get; set; }
-        //public int PESOESPECIFICO { get; set; }
+        public double PESOESPECIFICO { get; set; }
         public string CODRESULTADO_TEM { get; set; }
     }
 }
