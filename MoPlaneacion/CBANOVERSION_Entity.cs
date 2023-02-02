@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MoDLL.MoPlaneacion
 {
-    public class ANOVERSION_Entity
+    public class CBANOVERSION_Entity
     {       
         public string Tabla = "PLAPERPDS";
         public string CODEMPRESA { get; set; }
