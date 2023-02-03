@@ -44,14 +44,9 @@
     <Compile Include="MoConfiguracion\DETIVA_Entity.cs" />
     <Compile Include="MoConfiguracion\EMPRESA_Entity.cs" />
     <Compile Include="MoConfiguracion\IVA_Entity.cs" />
-    <Compile Include="MoPlaneacion\CBANOVERSION_Entity.cs" />
-    <Compile Include="MoPlaneacion\CBEJEESTRAT_Entity.cs" />
-    <Compile Include="MoPlaneacion\CBPROGRAMA_Entity.cs" />
-    <Compile Include="MoPlaneacion\CBPROYECTO_Entity.cs" />
     <Compile Include="MoPlaneacion\PLAMAEACT_Entity.cs" />
     <Compile Include="MoPlaneacion\PLAMAEIND_Entity.cs" />
     <Compile Include="MoPlaneacion\PLAMAEMETA_Entity.cs" />
-    <Compile Include="MoPlaneacion\CBPLANDES_Entity.cs" />
     <Compile Include="MoPlaneacion\PLAPDSNIV_Entity.cs" />
     <Compile Include="MoPlaneacion\PLAPERPDS_Entity.cs" />
     <Compile Include="MoPlaneacion\PLAMAERES_Entity.cs" />
