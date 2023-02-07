@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MoPlaneacion\MAEAREATRA_Entity.cs" />
     <Compile Include="MoConfiguracion\DETIVA_Entity.cs" />
     <Compile Include="MoConfiguracion\EMPRESA_Entity.cs" />
     <Compile Include="MoConfiguracion\IVA_Entity.cs" />
