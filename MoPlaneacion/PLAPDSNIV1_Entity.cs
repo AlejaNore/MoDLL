@@ -15,8 +15,8 @@ namespace MoDLL.MoPlaneacion
         public int ANOINIVIG { get; set; }
         public int VERSION { get; set; }       
         public string CODPLANDES { get; set; }
-        public string PROPOSITOGEN { get; set; }
-        public string METODOLOGIA { get; set; }
+        public string PROPOSITOGEN { get; set; } = string.Empty;
+        public string METODOLOGIA { get; set; } = string.Empty;
         public string CODPLANDES_TEM { get; set; }       
     }
 }
