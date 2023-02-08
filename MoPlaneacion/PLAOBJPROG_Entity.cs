@@ -18,10 +18,7 @@ namespace MoDLL.MoPlaneacion
         public string CODEJEEST { get; set; }
         public string CODPROGRAMA { get; set; }
         public string CODOBJETIVO { get; set; }
-        public string DESCRIPCION { get; set; }
-        public string CODPLANDES_TEM { get; set; }
-        public string CODEJEEST_TEM { get; set; }
-        public string CODPROGRAMA_TEM { get; set; }
+        public string DESCRIPCION { get; set; }       
         public string CODOBJETIVO_TEM { get; set; }
     }
 }
