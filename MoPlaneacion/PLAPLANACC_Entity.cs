@@ -14,11 +14,11 @@ namespace MoDLL
         public string CODSUCURSAL { get; set; }
         public int ANOINIVIG { get; set; }
         public int VERSION { get; set; }
+        public int ANOPLANACC { get; set; }
         public string CODPLANDES { get; set; }
         public string CODEJEEST { get; set; }
         public string CODPROGRAMA { get; set; }
-        public string CODPROYECTO { get; set; }
-        public int ANOPLANACC { get; set; }
+        public string CODPROYECTO { get; set; }      
         public string CODACTIVIDAD { get; set; }
         public double FACTPOND { get; set; }
     }
