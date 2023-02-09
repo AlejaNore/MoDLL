@@ -20,11 +20,7 @@ namespace MoDLL.MoPlaneacion
         public string CODPROYECTO { get; set; }
         public string CODIGOFUENTE { get; set; }
         public double VALOR { get; set; }
-
-        public string CODPLANDES_TEM { get; set; }
-        public string CODEJEEST_TEM { get; set; }
-        public string CODPROGRAMA_TEM { get; set; }
-        public string CODPROYECTO_TEM { get; set; }
+   
         public string CODIGOFUENTE_TEM { get; set; }
     }
 }
