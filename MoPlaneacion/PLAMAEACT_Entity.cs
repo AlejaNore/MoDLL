@@ -9,7 +9,8 @@ namespace MoDLL
     public class PLAMAEACT_Entity
     {
         public string Tabla = "PLAMAEACT";
-        public int Estado { get; set; }
+        public int Estado { get; set; } //NO ES UN CAMPO DE LA TABLA
+        public string Seleccionar { get; set; } //NO ES UN CAMPO DE LA TABLA
         public string CODEMPRESA { get; set; }
         public string CODSUCURSAL { get; set; }
         public string CODACTIVIDAD { get; set; }
