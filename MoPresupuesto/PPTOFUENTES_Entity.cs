@@ -9,7 +9,8 @@ namespace MoDLL
     public class PPTOFUENTES_Entity
     {
         public string Tabla = "PPTOFUENTES";
-        public int Estado { get; set; }
+        public int Estado { get; set; } //NO ES UN CAMPO DE LA TABLA
+        public string Seleccionar { get; set; } //NO ES UN CAMPO DE LA TABLA
         public string CODEMPRESA { get; set; }
         public string CODIGO { get; set; }
         public string NOMBRE { get; set; }

@@ -9,7 +9,8 @@ namespace MoDLL
     public class PLAMAEMETA_Entity
     {
         public string Tabla = "PLAMAEMETA";
-        public int Estado { get; set; }
+        public int Estado { get; set; } //NO ES UN CAMPO DE LA TABLA
+        public string Seleccionar { get; set; } //NO ES UN CAMPO DE LA TABLA
         public string CODEMPRESA { get; set; }
         public string CODSUCURSAL { get; set; }
         public string CODMETA { get; set; }
