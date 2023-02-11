@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace MoDLL
 {
-    public class PLAPLANACC_Entity
+    public class PLAMAETAR_Entity
     {
-        public string Tabla = "PLAPLANACC";
+        public string Tabla = "PLAMAETAR";
         public int Estado { get; set; }
         public string CODEMPRESA { get; set; }
         public string CODSUCURSAL { get; set; }
@@ -18,9 +18,12 @@ namespace MoDLL
         public string CODPLANDES { get; set; }
         public string CODEJEEST { get; set; }
         public string CODPROGRAMA { get; set; }
-        public string CODPROYECTO { get; set; }      
+        public string CODPROYECTO { get; set; }
         public string CODACTIVIDAD { get; set; }
-        public double FACTPOND { get; set; }
-        public string CODACTIVIDAD_TEM { get; set; }
+        public string CODTAREA { get; set; }
+        public string DESTAREA { get; set; }
+        public Double CANTTAREA { get; set; }
+        public string CODRESULTADO { get; set; }
+        public string CODTAREA_TEM { get; set; }
     }
 }
