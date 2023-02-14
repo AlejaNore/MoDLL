@@ -19,15 +19,13 @@ namespace MoDLL.MoPlaneacion
         public string CODEJEEST { get; set; }
         public string CODPROGRAMA { get; set; }
         public string CODPROYECTO { get; set; }
-        public string CODDEPENDENCIA { get; set; }
+        public string CODAREATRA { get; set; }
         public string NITCC { get; set; }
         public string SUCURTER { get; set; }
 
-        public string CODPLANDES_TEM { get; set; }
-        public string CODEJEEST_TEM { get; set; }
-        public string CODPROGRAMA_TEM { get; set; }
-        public string CODPROYECTO_TEM { get; set; }
-        public string CODDEPENDENCIA_TEM { get; set; }
+        public string CODAREATRA_TEM { get; set; }
         public string NITCC_TEM { get; set; }
+        public string SUCURTER_TEM { get; set; }
+
     }
 }

@@ -22,10 +22,6 @@ namespace MoDLL.MoPlaneacion
         public string CODMETA { get; set; }
         public double CANTMETA { get; set; }
 
-        public string CODPLANDES_TEM { get; set; }
-        public string CODEJEEST_TEM { get; set; }
-        public string CODPROGRAMA_TEM { get; set; }
-        public string CODPROYECTO_TEM { get; set; }
         public string CODINDICADOR_TEM { get; set; }
         public string CODMETA_TEM { get; set; }
 
