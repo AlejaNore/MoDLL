@@ -19,13 +19,12 @@ namespace MoDLL.MoPlaneacion
         public string CODPROGRAMA { get; set; }
         public string CODPROYECTO { get; set; }
         public string CODINDICADOR { get; set; }
+        public string CODMODULO { get; set; }
         public string CODMETA { get; set; }
         public double CANTMETA { get; set; }
-        public string CODMODULO { get; set; }
-
+        
         public string CODINDICADOR_TEM { get; set; }
         public string CODMETA_TEM { get; set; }
-        public string CODMODULO_TEM { get; set; }
 
     }
 }
