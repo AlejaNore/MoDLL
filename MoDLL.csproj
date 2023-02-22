@@ -41,6 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FSelecTercero_Entity.cs" />
+    <Compile Include="MoConfiguracion\SUCURTER_Entity.cs" />
+    <Compile Include="MoConfiguracion\TERCERO_Entity.cs" />
     <Compile Include="MoPlaneacion\MAEAREATRA_Entity.cs" />
     <Compile Include="MoConfiguracion\DETIVA_Entity.cs" />
     <Compile Include="MoConfiguracion\EMPRESA_Entity.cs" />
