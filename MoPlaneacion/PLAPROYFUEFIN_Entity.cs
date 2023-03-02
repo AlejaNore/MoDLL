@@ -21,5 +21,7 @@ namespace MoDLL.MoPlaneacion
         public string CODIGOFUENTE { get; set; }
         public double VALOR { get; set; }  
         public string CODIGOFUENTE_TEM { get; set; }
+
+        public string NOMBRE{ get; set; }///DESC
     }
 }
