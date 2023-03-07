@@ -32,6 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -56,6 +57,7 @@
     <Compile Include="MoPlaneacion\PLAOBJPROG_Entity.cs" />
     <Compile Include="MoPlaneacion\PLAPDSNIV1_Entity.cs" />
     <Compile Include="MoPlaneacion\PLAPDSNIV_Entity.cs" />
+    <Compile Include="MoPlaneacion\MAESTRODET_PLAPDSNIV_Entity.cs" />
     <Compile Include="MoPlaneacion\PLAPERPDS_Entity.cs" />
     <Compile Include="MoPlaneacion\PLAMAERES_Entity.cs" />
     <Compile Include="MoPlaneacion\PLAPLANACC_Entity.cs" />
@@ -72,6 +74,9 @@
     <Compile Include="MoConfiguracion\SUCURSAL_Entity.cs" />
     <Compile Include="MoConfiguracion\UNIDADES_Entity.cs" />
     <Compile Include="MoConfiguracion\ZONAS_Entity.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\DataSources\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
