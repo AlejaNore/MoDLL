@@ -22,5 +22,12 @@ namespace MoDLL
         public string CODACTIVIDAD { get; set; }
         public double FACTPOND { get; set; }
         public string CODACTIVIDAD_TEM { get; set; }
+
+        public List<PLAHOMACTINDMETA_Entity> ListPLAHOMACTINDMETA { get; set; }
+
+        public PLAPLANACC_Entity()
+        {
+            ListPLAHOMACTINDMETA = new List<PLAHOMACTINDMETA_Entity>();
+        }
     }
 }
