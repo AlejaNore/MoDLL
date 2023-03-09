@@ -9,7 +9,6 @@ namespace MoDLL.MoPlaneacion
 {
     public class MAESTRODET_PLAPDSNIV_Entity
     {
-
         public string Tabla = "PLAPDSNIV";
         public int Estado { get; set; }
         public string CODEMPRESA { get; set; }
@@ -28,27 +27,24 @@ namespace MoDLL.MoPlaneacion
         public string CODPROGRAMA_TEM { get; set; }
         public string CODPROYECTO_TEM { get; set; }
 
-        public List<DETALLE_PLAPDSNIV1_Entity> RefDetalle_PLANDESNIV1 { get; set; }
+        ///HIJOS public List<DETALLE_PLAPDSNIV1_Entity> RefDetalle_PLANDESNIV1 { get; set; }
+        public List<PLAPDSNIV1_Entity> RefDetalle_PLANDESNIV1 { get; set; }
+        public List<PLAOBJESTEJE_Entity> RefDetalle_PLAOBJESTEJE { get; set; }
+        public List<PLAOBJPROG_Entity> RefDetalle_PLAOBJPROG { get; set; }
+        public List<PLAPROYFUEFIN_Entity> RefDetalle_PLAPROYFUEFIN { get; set; }
+        public List<PLAPROYAREARES_Entity> RefDetalle_PLAPROYAREARES { get; set; }
+        public List<PLAPROYINDMETA_Entity> RefDetalle_PLAPROYINDMETA { get; set; }
 
+        //MAESTRODET_PLAPDSNIV_Entity
         public MAESTRODET_PLAPDSNIV_Entity()
         {
-            RefDetalle_PLANDESNIV1 = new List<DETALLE_PLAPDSNIV1_Entity>();
+            RefDetalle_PLANDESNIV1 = new List<PLAPDSNIV1_Entity>();
+            RefDetalle_PLAOBJESTEJE = new List<PLAOBJESTEJE_Entity>();
+            RefDetalle_PLAOBJPROG = new List<PLAOBJPROG_Entity>();
+            RefDetalle_PLAPROYFUEFIN = new List<PLAPROYFUEFIN_Entity>();
+            RefDetalle_PLAPROYAREARES = new List<PLAPROYAREARES_Entity>();
+            RefDetalle_PLAPROYINDMETA = new List<PLAPROYINDMETA_Entity>();
         }
     }
 
-    public class DETALLE_PLAPDSNIV1_Entity
-    {   //detalle
-            [Key]
-            public string Tabla = "PLAPDSNIV1";
-            public int Estado { get; set; }
-            public string CODEMPRESA { get; set; }
-            public string CODSUCURSAL { get; set; }
-            public int ANOINIVIG { get; set; }
-            public int VERSION { get; set; }
-            public string CODPLANDES { get; set; }
-            public string PROPOSITOGEN { get; set; } = string.Empty;
-            public string METODOLOGIA { get; set; } = string.Empty;
-            public string CODPLANDES_TEM { get; set; }           
-    }
-    
 }
