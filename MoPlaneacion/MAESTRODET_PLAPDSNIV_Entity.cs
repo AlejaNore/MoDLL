@@ -25,7 +25,7 @@ namespace MoDLL.MoPlaneacion
         public string CODPLANDES_TEM { get; set; }
         public string CODEJEEST_TEM { get; set; }
         public string CODPROGRAMA_TEM { get; set; }
-        public string CODPROYECTO_TEM { get; set; }
+        public string CODPROYECTO_TEM { get; set; }        
 
         ///HIJOS public List<DETALLE_PLAPDSNIV1_Entity> RefDetalle_PLANDESNIV1 { get; set; }
         public List<PLAPDSNIV1_Entity> RefDetalle_PLANDESNIV1 { get; set; }
