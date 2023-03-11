@@ -32,4 +32,5 @@ namespace MoDLL
             ListPLAMAETAR = new List<PLAMAETAR_Entity>();
         }
     }
+    //public
 }
