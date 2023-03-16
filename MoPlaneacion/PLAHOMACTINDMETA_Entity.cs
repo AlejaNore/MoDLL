@@ -28,6 +28,6 @@ namespace MoDLL
         public string CODRESULTADO { get; set; }
         //public string OBSERVMETA { get; set; }}
         public int CODINDICADOR_TEM { get; set; }
-        public int CODMETA_TEM { get; set; }
+        public string CODMETA_TEM { get; set; }
     }
 }
