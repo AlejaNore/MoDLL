@@ -17,6 +17,7 @@ namespace MoDLL.MoPlaneacion
         public string CODPLANDES { get; set; }
         public string PROPOSITOGEN { get; set; } = string.Empty;
         public string METODOLOGIA { get; set; } = string.Empty;
-        public string CODPLANDES_TEM { get; set; }       
+        public string CODPLANDES_TEM { get; set; }
+        
     }
 }
