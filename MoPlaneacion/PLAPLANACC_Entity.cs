@@ -23,6 +23,18 @@ namespace MoDLL
         public double FACTPOND { get; set; }
         public string CODACTIVIDAD_TEM { get; set; }
 
+        //PARA OBTENER EL CODIGO Y DESCRIPCION DEL COMBOBOX
+        public string EMPRESA { get; set; }
+        public string SUCURSAL { get; set; }
+        public string PLANDES { get; set; }
+        public string EJEEST { get; set; }
+        public string PROGRAMA { get; set; }
+        public string PROYECTO { get; set; }
+        //DESCRIPCIONES
+        public string DESACTIVIDAD { get; set; }
+
+        //
+
         public List<PLAHOMACTINDMETA_Entity> ListPLAHOMACTINDMETA { get; set; }
         public List<PLAMAETAR_Entity> ListPLAMAETAR { get; set; }
 
