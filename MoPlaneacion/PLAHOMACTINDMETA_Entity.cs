@@ -30,5 +30,10 @@ namespace MoDLL
         public string CODMODULO_TEM { get; set; }
         public int CODINDICADOR_TEM { get; set; }
         public string CODMETA_TEM { get; set; }
+
+        //DESCRIPCIONES
+        public string DESINDICADOR { get; set; }
+        public string DESMETA { get; set; }
+        public string DESRESULTADO { get; set; }
     }
 }

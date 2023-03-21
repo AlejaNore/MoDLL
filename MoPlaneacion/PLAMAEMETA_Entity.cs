@@ -14,7 +14,7 @@ namespace MoDLL
         public string CODEMPRESA { get; set; }
         public string CODSUCURSAL { get; set; }
         public string CODMETA { get; set; }
-        public string DESCRIPCION { get; set; }
+        public string DESMETA { get; set; }
         public string CODMETA_TEM { get; set; }
 
     }
