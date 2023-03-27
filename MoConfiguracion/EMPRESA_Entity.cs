@@ -12,6 +12,7 @@ namespace MoDLL
         public int Estado { get; set; }
         public string CODEMPRESA { get; set; }
         public string NIT { get; set; }
+        public int DIGVERIF { get; set; }
         public string RAZONSOCIAL { get; set; }
         
     }
