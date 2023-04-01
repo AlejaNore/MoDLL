@@ -43,6 +43,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FSelecTercero_Entity.cs" />
+    <Compile Include="MoConfiguracion\DOCCONSEC_Entity.cs" />
+    <Compile Include="MoConfiguracion\DOCUMENT_Entity.cs" />
     <Compile Include="MoConfiguracion\SUCURTER_Entity.cs" />
     <Compile Include="MoConfiguracion\TERCERO_Entity.cs" />
     <Compile Include="MoPlaneacion\MAEAREATRA_Entity.cs" />
