@@ -21,9 +21,9 @@ namespace MoDLL.MoPlaneacion
         public string CODPROYECTO { get; set; }
         public string CODAREATRA { get; set; }
         public string NITCC { get; set; }
-        public string DESCRIPCION { get; set; }
+        public string DESTER { get; set; }
         public string SUCURTER { get; set; }
-        public string RAZONSOCIAL { get; set; }
+        public string DESSUCTER { get; set; }
 
         public string CODAREATRA_TEM { get; set; }
         public string NITCC_TEM { get; set; }
