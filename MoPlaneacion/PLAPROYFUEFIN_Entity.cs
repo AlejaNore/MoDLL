@@ -19,6 +19,8 @@ namespace MoDLL.MoPlaneacion
         public string CODPROGRAMA { get; set; }
         public string CODPROYECTO { get; set; }
         public string CODIGOFUENTE { get; set; }
+        public string DESFUENTE { get; set; }
+        
         public double VALOR { get; set; }  
         public string CODIGOFUENTE_TEM { get; set; }
         public string NOMBRE{ get; set; }///DESC
