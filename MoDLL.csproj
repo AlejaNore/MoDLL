@@ -68,6 +68,7 @@
     <Compile Include="MoPlaneacion\PLAPROYAREARES_Entity.cs" />
     <Compile Include="MoPlaneacion\PLAPROYFUEFIN_Entity.cs" />
     <Compile Include="MoPlaneacion\PLAPROYINDMETA_Entity.cs" />
+    <Compile Include="MoPlaneacion\PLAREGDOCDET_Entity.cs" />
     <Compile Include="MoPresupuesto\PERRUBRO_Entity.cs" />
     <Compile Include="MoPresupuesto\PPTOFUENTES_Entity.cs" />
     <Compile Include="MoPlaneacion\PLAMAETAR_Entity.cs" />

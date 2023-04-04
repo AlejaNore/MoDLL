@@ -15,6 +15,7 @@ namespace MoDLL
         public string CODDOC { get; set; }
         public string PREFIJO { get; set; }
         public int CONSEC { get; set; }
+        public int ANOINIVIG { get; set; }
         public int ANO { get; set; }
         public int MES { get; set; }
         public DateTime FECHADOC { get; set; }
