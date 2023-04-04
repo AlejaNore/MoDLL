@@ -44,4 +44,18 @@ namespace MoDLL.MoPlaneacion
             RefDetalle_PLAPROYINDMETA = new List<PLAPROYINDMETA_Entity>();
         }
     }
+
+
+    public class Forma_PLAPDSNIV_Entity//NO ES UN CAMPO DE LA TABLA
+    {
+        public int EDNIVEL { get; set; }
+        public string EDCODPLANDES { get; set; }
+        public string EDCODEJEEST { get; set; }
+        public string EDCODPROGRAMA { get; set; }
+        public string EDCODPROYECTO { get; set; }
+
+
+    }
+
+
 }
