@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MoDLL
+namespace MoDLL.MoPlaneacion
 {
     public class PLAREGDOCENC_Entity
     {
@@ -15,7 +15,6 @@ namespace MoDLL
         public string CODDOC { get; set; }
         public string PREFIJO { get; set; }
         public int CONSEC { get; set; }
-        public int ANOINIVIG { get; set; }
         public int ANO { get; set; }
         public int MES { get; set; }
         public DateTime FECHADOC { get; set; }
@@ -25,5 +24,8 @@ namespace MoDLL
         public string DESSUCTER { get; set; }
         public string CODUSUARIO { get; set; }
         public string AUTORIZADO { get; set; }
+        //
+        public int ANOINIVIG { get; set; }
+        public int VERSION { get; set; }
     }
 }
