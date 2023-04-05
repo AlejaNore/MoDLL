@@ -54,7 +54,6 @@ namespace MoDLL.MoPlaneacion
         public string EDCODPROGRAMA { get; set; }
         public string EDCODPROYECTO { get; set; }
 
-
     }
 
 
