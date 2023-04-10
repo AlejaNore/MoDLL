@@ -9,7 +9,12 @@ namespace MoDLL
     public class PLAMAETAR_Entity
     {
         public string Tabla = "PLAMAETAR";
-        public int Estado { get; set; }
+
+        //NO SON CAMPOS DE LA TABLA
+        public int Estado { get; set; } 
+        public string Seleccionar { get; set; } 
+
+        //SI SON CAMPOS DE LA TABLA
         public string CODEMPRESA { get; set; }
         public string CODSUCURSAL { get; set; }
         public int ANOINIVIG { get; set; }
