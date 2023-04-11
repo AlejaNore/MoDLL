@@ -9,7 +9,7 @@ namespace MoDLL.MoPlaneacion
     public class PLAREGDOCENC_Entity
     {
         public string Tabla = "PLAREGDOCENC";
-        public int Estado { get; set; }
+        //SON CAMPOS DE LA TABLA
         public string CODEMPRESA { get; set; }
         public string CODSUCURSAL { get; set; }
         public string CODDOC { get; set; }
@@ -24,7 +24,8 @@ namespace MoDLL.MoPlaneacion
         public string DESSUCTER { get; set; }
         public string CODUSUARIO { get; set; }
         public string AUTORIZADO { get; set; }
-        //
+        //NO SON CAMPOS DE LA TABLA
+        public int Estado { get; set; } 
         public int ANOINIVIG { get; set; }
         public int VERSION { get; set; }
     }
