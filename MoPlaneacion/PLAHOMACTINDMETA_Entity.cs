@@ -8,7 +8,7 @@ namespace MoDLL
 {
     public class PLAHOMACTINDMETA_Entity
     {
-        public string Tabla = "PLAHOMACTINDMETA";
+        public string Tabla = "plahomactindmeta";//PLAHOMACTINDMETA
         public int Estado { get; set; }
         public string CODEMPRESA { get; set; }
         public string CODSUCURSAL { get; set; }

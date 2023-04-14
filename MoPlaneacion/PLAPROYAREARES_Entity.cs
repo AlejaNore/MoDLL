@@ -9,7 +9,7 @@ namespace MoDLL.MoPlaneacion
     public class PLAPROYAREARES_Entity
     {
 
-        public string Tabla = "PLAPROYAREARES";
+        public string Tabla = "plaproyareares";//PLAPROYAREARES
         public int Estado { get; set; }
         public string CODEMPRESA { get; set; }
         public string CODSUCURSAL { get; set; }

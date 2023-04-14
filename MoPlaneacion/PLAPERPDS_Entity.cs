@@ -8,7 +8,7 @@ namespace MoDLL
 {
     public class PLAPERPDS_Entity
     {
-        public string Tabla = "PLAPERPDS";
+        public string Tabla = "plaperpds";// PLAPERPDS
         public int Estado { get; set; }
         public string CODEMPRESA { get; set; }
         public string CODSUCURSAL { get; set; }

@@ -8,7 +8,7 @@ namespace MoDLL
 {
     public class PLAMAEIND_Entity
     {
-        public string Tabla = "PLAMAEIND";
+        public string Tabla = "plamaeind";//PLAMAEIND
         public string Seleccionar { get; set; } //NO ES UN CAMPO DE LA TABLA
         public int Estado { get; set; } //NO ES UN CAMPO DE LA TABLA      
         public string CODEMPRESA { get; set; }

@@ -8,7 +8,7 @@ namespace MoDLL.MoPlaneacion
 {
     public class PLAOBJPROG_Entity
     {
-        public string Tabla = "PLAOBJPROG";
+        public string Tabla = "plaobjprog";// PLAOBJPROG
         public int Estado { get; set; }
         public string CODEMPRESA { get; set; }
         public string CODSUCURSAL { get; set; }

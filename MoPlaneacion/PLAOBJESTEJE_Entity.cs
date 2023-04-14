@@ -8,7 +8,7 @@ namespace MoDLL.MoPlaneacion
 {
     public class PLAOBJESTEJE_Entity
     {
-        public string Tabla = "PLAOBJESTEJE";
+        public string Tabla = "plaobjesteje";// PLAOBJESTEJE
         public int Estado { get; set; }
         public string CODEMPRESA { get; set; }
         public string CODSUCURSAL { get; set; }

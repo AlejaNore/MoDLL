@@ -8,7 +8,7 @@ namespace MoDLL.MoPlaneacion
 {
     public class PLAPDSNIV_Entity
     {
-        public string Tabla = "PLAPDSNIV";
+        public string Tabla = "plapdsniv";//PLAPDSNIV
         public int Estado { get; set; }
         public string CODEMPRESA { get; set; }
         public string CODSUCURSAL { get; set; }

@@ -8,7 +8,7 @@ namespace MoDLL
 {
     public class MAEAREATRA_Entity
     {
-        public string Tabla = "MAEAREATRA";
+        public string Tabla = "maeareatra";// MAEAREATRA
         public string Seleccionar { get; set; } //NO ES UN CAMPO DE LA TABLA
         public int Estado { get; set; } //NO ES UN CAMPO DE LA TABLA      
         public string CODEMPRESA { get; set; }

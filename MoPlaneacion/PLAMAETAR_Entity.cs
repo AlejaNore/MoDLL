@@ -8,7 +8,7 @@ namespace MoDLL
 {
     public class PLAMAETAR_Entity
     {
-        public string Tabla = "PLAMAETAR";
+        public string Tabla = "plamaetar";// PLAMAETAR
 
         //NO SON CAMPOS DE LA TABLA
         public int Estado { get; set; } 

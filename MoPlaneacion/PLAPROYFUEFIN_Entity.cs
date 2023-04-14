@@ -8,7 +8,7 @@ namespace MoDLL.MoPlaneacion
 {
     public class PLAPROYFUEFIN_Entity
     {
-        public string Tabla = "PLAPROYFUEFIN";
+        public string Tabla = "plaproyfuefin";// PLAPROYFUEFIN
         public int Estado { get; set; }
         public string CODEMPRESA { get; set; }
         public string CODSUCURSAL { get; set; }
