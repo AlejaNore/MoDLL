@@ -32,5 +32,6 @@ namespace MoDLL
         public string CODTAREA_TEM { get; set; }
         //DESCRIPCIONES
         public string DESRESULTADO { get; set; }
+        public string DESACTIVIDAD { get; set; }
     }
 }
