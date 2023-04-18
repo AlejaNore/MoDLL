@@ -18,7 +18,7 @@ namespace MoDLL.MoPlaneacion
         public int POSICION { get; set; }
         public int ANOINIVIG { get; set; }
         public int VERSION { get; set; }
-        public int ANOPLANACC { get; set; }
+        public int ANORUBRO { get; set; }
         public string CODPLANDES { get; set; }
         public string CODEJEEST { get; set; }
         public string CODPROGRAMA { get; set; }
