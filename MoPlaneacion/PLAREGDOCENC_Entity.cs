@@ -29,6 +29,7 @@ namespace MoDLL.MoPlaneacion
         public string AUTORIZADO { get; set; }
         //NO SON CAMPOS DE LA TABLA
         public int Estado { get; set; } 
-        
+
+
     }
 }
