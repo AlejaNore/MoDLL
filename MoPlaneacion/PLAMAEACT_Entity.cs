@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MoDLL
+namespace MoDLL.MoPlaneacion
 {
     public class PLAMAEACT_Entity
     {
