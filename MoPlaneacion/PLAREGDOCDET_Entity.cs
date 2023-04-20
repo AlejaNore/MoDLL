@@ -27,5 +27,14 @@ namespace MoDLL.MoPlaneacion
         public string CODTAREA { get; set; }
         public double CANTAVANCE { get; set; }
         public string EXPLICACION { get; set; }
+
+        //CAMPOS QUE NO ESTAN EN LA TABLA 
+        public string desplandes { get; set; }
+        public string desejeest { get; set; }
+        public string desprograma { get; set; }
+        public string desproyecto { get; set; }
+        public string DESACTIVIDAD { get; set; }
+        public string DESTAREA { get; set; }
+
     }
 }
