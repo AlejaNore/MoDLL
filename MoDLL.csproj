@@ -42,7 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FSelecTercero_Entity.cs" />
     <Compile Include="MoConfiguracion\DOCCONSEC_Entity.cs" />
     <Compile Include="MoConfiguracion\DOCUMENT_Entity.cs" />
     <Compile Include="MoConfiguracion\PERCON_Entity.cs" />
