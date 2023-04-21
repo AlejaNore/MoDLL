@@ -19,7 +19,7 @@ namespace MoDLL.MoPlaneacion
         public string CODEJEEST { get; set; }
         public string CODPROGRAMA { get; set; }
         public string CODPROYECTO { get; set; }
-        public string DESCRIPCION { get; set; }        
+        public string DESCRIPCION { get; set; }
         public double FACTPOND { get; set; }
         public string CODPLANDES_TEM { get; set; }
         public string CODEJEEST_TEM { get; set; }
@@ -55,6 +55,32 @@ namespace MoDLL.MoPlaneacion
         public string EDCODPROYECTO { get; set; }
 
     }
+    public class moplan16
+    {
+        public string Tabla = "plapdsniv";//PLAPDSNIV
+        public int Estado { get; set; }
+        public string CODEMPRESA { get; set; }
+        public string CODSUCURSAL { get; set; }
+        public int ANOINIVIG { get; set; }
+        public int VERSION { get; set; }
+        public int NIVEL { get; set; }
+        public string CODPLANDES { get; set; }
+        public string CODEJEEST { get; set; }
+        public string CODPROGRAMA { get; set; }
+        public string CODPROYECTO { get; set; }
+        public string DESCRIPCION { get; set; }
+        public double FACTPOND { get; set; }
+
+        ///ACTIV 
+        public int ANORUBRO { get; set; }
+        public string CODACTIVIDAD { get; set; }
+
+        //TAREA
+        public string CODTAREA { get; set; }        
+        public Double CANTTAREA { get; set; }
+        public string CODRESULTADO { get; set; }
+    }
+
 
 
 }
