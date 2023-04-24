@@ -55,7 +55,7 @@ namespace MoDLL.MoPlaneacion
         public string EDCODPROYECTO { get; set; }
 
     }
-    public class moplan16
+    public class moplan16_17
     {
         public string Tabla = "plapdsniv";//PLAPDSNIV
         public int Estado { get; set; }
