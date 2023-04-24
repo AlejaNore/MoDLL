@@ -29,6 +29,9 @@ namespace MoDLL.MoPlaneacion
         public string EXPLICACION { get; set; }
 
         //CAMPOS QUE NO ESTAN EN LA TABLA 
+        public int ANO { get; set; }
+        public int MES { get; set; }
+        public int AUTORIZADO { get; set; }
         public string desplandes { get; set; }
         public string desejeest { get; set; }
         public string desprograma { get; set; }
