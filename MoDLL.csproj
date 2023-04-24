@@ -52,6 +52,8 @@
     <Compile Include="MoConfiguracion\DETIVA_Entity.cs" />
     <Compile Include="MoConfiguracion\EMPRESA_Entity.cs" />
     <Compile Include="MoConfiguracion\IVA_Entity.cs" />
+    <Compile Include="MoPlaneacion\PLACIEMESDET_Entity.cs" />
+    <Compile Include="MoPlaneacion\PLACIEMESENC_Entity.cs" />
     <Compile Include="MoPlaneacion\PLAHOMACTINDMETA_Entity.cs" />
     <Compile Include="MoPlaneacion\PLAMAEACT_Entity.cs" />
     <Compile Include="MoPlaneacion\PLAMAEIND_Entity.cs" />
