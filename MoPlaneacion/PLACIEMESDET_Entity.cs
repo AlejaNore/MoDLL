@@ -28,5 +28,10 @@ namespace MoDLL.MoPlaneacion
 
         //NO SON CAMPOS DE LA TABLA
         public int Estado { get; set; }
+        public string desplandes { get; set; }
+        public string desejeest { get; set; }
+        public string desprograma { get; set; }
+        public string desproyecto { get; set; }
+        public string DESACTIVIDAD { get; set; }
     }
 }

@@ -14,6 +14,7 @@ namespace MoDLL.MoPlaneacion
         public string CODSUCURSAL { get; set; }
         public int ANO { get; set; }
         public int MES { get; set; }
+        public DateTime FECHACORTE { get; set; }
         public string CODUSUARIO { get; set; }
         public string AUTORIZADO { get; set; }
 
