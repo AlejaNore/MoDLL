@@ -21,5 +21,6 @@ namespace MoDLL.MoPlaneacion
         public string CODOBJETIVO { get; set; }
         public string DESCRIPCION { get; set; }       
         public string CODOBJETIVO_TEM { get; set; }
+        public string DESCRIPCIONEJE { get; set; }
     }
 }
