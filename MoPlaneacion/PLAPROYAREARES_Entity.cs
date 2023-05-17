@@ -28,6 +28,9 @@ namespace MoDLL.MoPlaneacion
         public string CODAREATRA_TEM { get; set; }
         public string NITCC_TEM { get; set; }
         public string SUCURTER_TEM { get; set; }
+        public string DESCRIPCIONPROY { get; set; }
+        public string DESAREATRA { get; set; }
+        
 
     }
 }

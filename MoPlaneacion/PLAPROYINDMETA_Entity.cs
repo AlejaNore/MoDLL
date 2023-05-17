@@ -24,6 +24,8 @@ namespace MoDLL.MoPlaneacion
         public double CANTMETA { get; set; }        
         public string CODINDICADOR_TEM { get; set; }
         public string CODMETA_TEM { get; set; }
-
+        public string DESCRIPCIONPROY { get; set; }
+        public string DESMETA { get; set; }
+        public string DESINDICADOR { get; set; }       
     }
 }
