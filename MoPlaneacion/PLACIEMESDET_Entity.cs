@@ -23,6 +23,7 @@ namespace MoDLL.MoPlaneacion
         public string CODPROGRAMA { get; set; }
         public string CODPROYECTO { get; set; }
         public string CODACTIVIDAD { get; set; }
+        public string DESACTIVIDAD { get; set; }
         public double TOTCANTAVANCE { get; set; }
 
 
@@ -32,6 +33,6 @@ namespace MoDLL.MoPlaneacion
         public string desejeest { get; set; }
         public string desprograma { get; set; }
         public string desproyecto { get; set; }
-        public string DESACTIVIDAD { get; set; }
+        
     }
 }
