@@ -70,7 +70,7 @@ namespace MoDLL.MoPlaneacion
         public string DESCRIPCION { get; set; }
         public double FACTPOND { get; set; }
         public double VALOR { get; set; }
-       
+        public double TOTAL { get; set; }
         ///ACTIV 
         public int ANORUBRO { get; set; }
         public string CODACTIVIDAD { get; set; }
