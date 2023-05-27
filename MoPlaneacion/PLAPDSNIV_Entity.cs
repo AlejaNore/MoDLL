@@ -67,16 +67,17 @@ namespace MoDLL.MoPlaneacion
         public string CODEJEEST { get; set; }
         public string CODPROGRAMA { get; set; }
         public string CODPROYECTO { get; set; }
+        public string CODACTIVIDAD { get; set; }
+        public string CODTAREA { get; set; }
         public string DESCRIPCION { get; set; }
         public double FACTPOND { get; set; }
         public double VALOR { get; set; }
         public double TOTAL { get; set; }
         ///ACTIV 
         public int ANORUBRO { get; set; }
-        public string CODACTIVIDAD { get; set; }
+        
 
-        //TAREA
-        public string CODTAREA { get; set; }        
+        //TAREA              
         public Double CANTTAREA { get; set; }
         public string CODRESULTADO { get; set; }
     }
