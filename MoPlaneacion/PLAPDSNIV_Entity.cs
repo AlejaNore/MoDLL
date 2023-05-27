@@ -43,6 +43,11 @@ namespace MoDLL.MoPlaneacion
             RefDetalle_PLAPROYAREARES = new List<PLAPROYAREARES_Entity>();
             RefDetalle_PLAPROYINDMETA = new List<PLAPROYINDMETA_Entity>();
         }
+
+        //PARA OBTENER EL CODIGO Y DESCRIPCION DEL COMBOBOX
+        public string CodDesEmpresa { get; set; }
+        public string CodDesSucursal { get; set; }
+        public string AñoVersionPDS { get; set; }
     }
 
 
