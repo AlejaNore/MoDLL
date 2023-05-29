@@ -48,7 +48,8 @@ namespace MoDLL.MoPlaneacion
         public string CodDesEmpresa { get; set; }
         public string CodDesSucursal { get; set; }
         public string AñoVersionPDS { get; set; }
-        public string CodDesPlanDesarrollo { get; set; }
+        public string CodDesPlanDesa { get; set; } //PLAN DE DESARROLLO
+        public string CodDesEjeEst { get; set; } //EJE ESTRATEGICO 
     }
 
 
