@@ -44,6 +44,7 @@ namespace MoDLL.MoPlaneacion
 
     }
 
+
     public class MoPlan21
     {
         public string Tabla = "PLAREGDOCDET";
