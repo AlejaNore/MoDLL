@@ -44,7 +44,6 @@ namespace MoDLL.MoPlaneacion
 
     }
 
-
     public class MoPlan21
     {
         public string Tabla = "PLAREGDOCDET";
@@ -66,8 +65,7 @@ namespace MoDLL.MoPlaneacion
         public string DESTAREA { get; set; }
         public double CANTAVANCE { get; set; }
         public int ANO { get; set; }
-        public int MES { get; set; }
-        
+        public int MES { get; set; }       
 
     }
 
