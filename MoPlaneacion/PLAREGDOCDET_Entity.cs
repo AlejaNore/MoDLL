@@ -44,7 +44,20 @@ namespace MoDLL.MoPlaneacion
 
     }
 
-    public class MoPlan21
+    public class Forma_PLAREGDOCDET_Entity//NO ES UN CAMPO DE LA TABLA
+    {
+        public string EDCODDOC { get; set; }
+        public string EDPREFIJO { get; set; }
+        public int EDCONSEC { get; set; }
+        public string EDCODPLANDES { get; set; }
+        public string EDCODEJEEST { get; set; }
+        public string EDCODPROGRAMA { get; set; }
+        public string EDCODPROYECTO { get; set; }
+        public string EDCODACTIVIDAD { get; set; }
+        public string EDCODTAREA { get; set; }
+    }
+
+    public class M_MoPlan21
     {
         public string Tabla = "PLAREGDOCDET";
         public string CODEMPRESA { get; set; }
@@ -60,13 +73,14 @@ namespace MoDLL.MoPlaneacion
         public string CODEJEEST { get; set; }
         public string CODPROGRAMA { get; set; }
         public string CODPROYECTO { get; set; }
-        public string CODACTIVIDAD { get; set; }
+        public string DESPROYECTO { get; set; }
+        public string CODACTIVIDAD { get; set; }            
         public string CODTAREA { get; set; }
         public string DESTAREA { get; set; }
         public double CANTAVANCE { get; set; }
         public int ANO { get; set; }
-        public int MES { get; set; }       
-
+        public int MES { get; set; }
+        public DateTime FECHADOC { get; set; }
     }
 
 
