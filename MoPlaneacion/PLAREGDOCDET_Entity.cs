@@ -57,6 +57,7 @@ namespace MoDLL.MoPlaneacion
         public string EDCODTAREA { get; set; }
     }
 
+
     public class M_MoPlan21
     {
         public string Tabla = "PLAREGDOCDET";
