@@ -8,6 +8,7 @@ namespace MoDLL.MoPlaneacion
 {
     public class PLAREGDOCDET_Entity
     {
+
         public string Tabla = "PLAREGDOCDET";
         public int Estado { get; set; }
         public string CODEMPRESA { get; set; }
