@@ -26,6 +26,9 @@ namespace MoDLL.MoPlaneacion
         public string CODMETA_TEM { get; set; }
         public string DESCRIPCIONPROY { get; set; }
         public string DESMETA { get; set; }
-        public string DESINDICADOR { get; set; }       
+        public string DESINDICADOR { get; set; }
+
+        //CAMPOS QUE NO SON DE LA TABLA 
+        public int NumReg { get; set; }
     }
 }
