@@ -10,6 +10,7 @@ namespace MoDLL
     {
         public string Tabla = "DOCUMENT";
         public int Estado { get; set; }
+        public string Seleccionar { get; set; } //NO ES UN CAMPO DE LA TABLA
         public string CODDOC { get; set; }
         public string DESCRIPCION { get; set; }
         public string CODTIPODOC { get; set; }

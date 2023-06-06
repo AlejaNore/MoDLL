@@ -9,6 +9,7 @@ namespace MoDLL
     public class DOCCONSEC_Entity
     {
         public string Tabla = "DOCCONSEC";
+        public string Seleccionar { get; set; } //NO ES UN CAMPO DE LA TABLA
         public int Estado { get; set; }
         public string CODEMPRESA { get; set; }
         public string CODSUCURSAL { get; set; }
