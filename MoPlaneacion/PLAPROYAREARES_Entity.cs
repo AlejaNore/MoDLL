@@ -30,7 +30,8 @@ namespace MoDLL.MoPlaneacion
         public string SUCURTER_TEM { get; set; }
         public string DESCRIPCIONPROY { get; set; }
         public string DESAREATRA { get; set; }
-        
 
+        //CAMPOS QUE NO SON DE LA TABLA 
+        public int NumReg { get; set; }
     }
 }

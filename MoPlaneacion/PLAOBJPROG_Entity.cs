@@ -22,5 +22,8 @@ namespace MoDLL.MoPlaneacion
         public string DESCRIPCION { get; set; }       
         public string CODOBJETIVO_TEM { get; set; }
         public string DESCRIPCIONPROG { get; set; }
+
+        //CAMPOS QUE NO SON DE LA TABLA 
+        public int NumReg { get; set; }
     }
 }

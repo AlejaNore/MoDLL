@@ -25,5 +25,8 @@ namespace MoDLL.MoPlaneacion
         public string CODIGOFUENTE_TEM { get; set; }
         public string NOMBRE{ get; set; }///DESC
         public string DESCRIPCIONPROY { get; set; }
+        
+        //CAMPOS QUE NO SON DE LA TABLA 
+        public int NumReg { get; set; }
     }
 }

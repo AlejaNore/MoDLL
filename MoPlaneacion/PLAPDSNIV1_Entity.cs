@@ -25,6 +25,9 @@ namespace MoDLL.MoPlaneacion
         public string CODEJEEST_TEM { get; set; }
         public string CODPROGRAMA_TEM { get; set; }
         public string CODPROYECTO_TEM { get; set; }
-        
+
+        //CAMPOS QUE NO SON DE LA TABLA 
+        public int NumReg { get; set; }
+
     }
 }
