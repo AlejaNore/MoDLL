@@ -72,11 +72,15 @@ namespace MoDLL.MoPlaneacion
         public int VERSION { get; set; }
         public int ANORUBRO { get; set; }
         public string CODPLANDES { get; set; }
+        public string DESPLANDES { get; set; }
         public string CODEJEEST { get; set; }
+        public string DESEJEEST { get; set; }       
         public string CODPROGRAMA { get; set; }
+        public string DESPROGRAMA { get; set; }
         public string CODPROYECTO { get; set; }
         public string DESPROYECTO { get; set; }
-        public string CODACTIVIDAD { get; set; }            
+        public string CODACTIVIDAD { get; set; }
+        public string DESACTIVIDAD { get; set; }
         public string CODTAREA { get; set; }
         public string DESTAREA { get; set; }
         public double CANTAVANCE { get; set; }
