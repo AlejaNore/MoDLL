@@ -87,6 +87,7 @@ namespace MoDLL.MoPlaneacion
         public int ANO { get; set; }
         public int MES { get; set; }
         public DateTime FECHADOC { get; set; }
+        public int POSINF { get; set; }
     }
 
 
