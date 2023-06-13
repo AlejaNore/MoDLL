@@ -64,13 +64,19 @@ namespace MoDLL.MoPlaneacion
         public string Tabla = "PLAREGDOCDET";
         public string CODEMPRESA { get; set; }
         public string CODSUCURSAL { get; set; }
+        public int ANOINIVIG { get; set; }
+        public int VERSION { get; set; }
+        public int ANORUBRO { get; set; }
+        public int POSINF { get; set; }
+
         public string CODDOC { get; set; }
         public string PREFIJO { get; set; }
         public int CONSEC { get; set; }
         public int POSICION { get; set; }
-        public int ANOINIVIG { get; set; }
-        public int VERSION { get; set; }
-        public int ANORUBRO { get; set; }
+        public int ANO { get; set; }
+        public int MES { get; set; }
+        public DateTime FECHADOC { get; set; }
+       
         public string CODPLANDES { get; set; }
         public string DESPLANDES { get; set; }
         public string CODEJEEST { get; set; }
@@ -84,10 +90,8 @@ namespace MoDLL.MoPlaneacion
         public string CODTAREA { get; set; }
         public string DESTAREA { get; set; }
         public double CANTAVANCE { get; set; }
-        public int ANO { get; set; }
-        public int MES { get; set; }
-        public DateTime FECHADOC { get; set; }
-        public int POSINF { get; set; }
+       
+        
     }
 
 
