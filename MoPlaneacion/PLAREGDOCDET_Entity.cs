@@ -72,11 +72,13 @@ namespace MoDLL.MoPlaneacion
         public string CODDOC { get; set; }
         public string PREFIJO { get; set; }
         public int CONSEC { get; set; }
+        public string DOCUMENTO { get; set; }
         public int POSICION { get; set; }
         public int ANO { get; set; }
         public int MES { get; set; }
         public DateTime FECHADOC { get; set; }
-       
+
+        public string CPROYECTO { get; set; }
         public string CODPLANDES { get; set; }
         public string DESPLANDES { get; set; }
         public string CODEJEEST { get; set; }
@@ -85,6 +87,7 @@ namespace MoDLL.MoPlaneacion
         public string DESPROGRAMA { get; set; }
         public string CODPROYECTO { get; set; }
         public string DESPROYECTO { get; set; }
+        
         public string CODACTIVIDAD { get; set; }
         public string DESACTIVIDAD { get; set; }
         public string CODTAREA { get; set; }
