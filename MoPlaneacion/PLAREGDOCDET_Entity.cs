@@ -77,7 +77,7 @@ namespace MoDLL.MoPlaneacion
         public int ANO { get; set; }
         public int MES { get; set; }
         public DateTime FECHADOC { get; set; }
-
+        public string FECHAstr { get; set; }
         public string CPROYECTO { get; set; }
         public string CODPLANDES { get; set; }
         public string DESPLANDES { get; set; }
