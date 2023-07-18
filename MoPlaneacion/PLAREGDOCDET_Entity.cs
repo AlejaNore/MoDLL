@@ -56,6 +56,8 @@ namespace MoDLL.MoPlaneacion
         public string EDCODPROYECTO { get; set; }
         public string EDCODACTIVIDAD { get; set; }
         public string EDCODTAREA { get; set; }
+        public Boolean CHCANTDIFCERO { get; set; }
+
     }
 
 
@@ -93,8 +95,7 @@ namespace MoDLL.MoPlaneacion
         public string CODTAREA { get; set; }
         public string DESTAREA { get; set; }
         public double CANTAVANCE { get; set; }
-       
-        
+        public string EXPLICACION { get; set; }
     }
 
 
