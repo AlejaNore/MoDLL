@@ -108,22 +108,22 @@ namespace MoDLL.MoPlaneacion
         public string CODACTIVIDAD { get; set; }
         public string CODTAREA { get; set; }
         public string DESCRIPCION { get; set; }
+        public Double CANTMETA { get; set; }
+        public Double CANTAVANCE { get; set; }
+        public Double PORCAVANCE { get; set; }
         public double FACTPOND { get; set; }
         public double VALOR { get; set; }
         public double TOTAL { get; set; }
+       
         ///ACTIV 
         public int ANORUBRO { get; set; }
-
-
         //TAREA              
         public Double CANTTAREA { get; set; }
         public string CODRESULTADO { get; set; }
-
         //META
         public string CODINDICADOR { get; set; }
         public string CODMETA { get; set; }
-        public Double CANTMETA { get; set; }
-        public Double CANTAVANCE { get; set; }
+       
     }
 
 
