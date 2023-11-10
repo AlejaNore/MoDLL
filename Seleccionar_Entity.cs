@@ -15,6 +15,13 @@ namespace MoDLL
         public string DESPARAMETRO2 { get; set; }
         public string CODPARAMETRO3 { get; set; }
         public string DESPARAMETRO3 { get; set; }
+        public string CODPARAMETRO4 { get; set; }
+        public string CODPARAMETRO5 { get; set; }
+        public string CODPARAMETRO6 { get; set; }
+        public string CODPARAMETRO7 { get; set; }
+        public string CODPARAMETRO8 { get; set; }
+        public string CODPARAMETRO9 { get; set; }
+
 
     }
 }

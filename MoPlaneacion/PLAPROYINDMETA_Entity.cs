@@ -9,6 +9,7 @@ namespace MoDLL.MoPlaneacion
     public class PLAPROYINDMETA_Entity
     {
         public string Tabla = "plaproyindmeta";// PLAPROYINDMETA
+        public string Seleccionar { get; set; } //NO ES UN CAMPO DE LA TABLA
         public int Estado { get; set; }
         public string CODEMPRESA { get; set; }
         public string CODSUCURSAL { get; set; }
