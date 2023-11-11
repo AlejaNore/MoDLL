@@ -42,10 +42,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MoConfiguracion\MUNICIPI_Entity.cs" />
+    <Compile Include="MoConfiguracion\PAIS_Entity.cs" />
     <Compile Include="MoConfiguracion\DOCCONSEC_Entity.cs" />
     <Compile Include="MoConfiguracion\DOCUMENT_Entity.cs" />
     <Compile Include="MoConfiguracion\PERCON_Entity.cs" />
     <Compile Include="MoConfiguracion\PERMES_Entity.cs" />
+    <Compile Include="MoConfiguracion\PROVINCIA_Entity.cs" />
     <Compile Include="MoConfiguracion\SUCURTER_Entity.cs" />
     <Compile Include="MoConfiguracion\TERCERO_Entity.cs" />
     <Compile Include="MoPlaneacion\MAEAREATRA_Entity.cs" />
