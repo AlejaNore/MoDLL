@@ -13,7 +13,10 @@ namespace MoDLL
         public string CODEMPRESA { get; set; }
         public string NIT { get; set; }
         public int DIGVERIF { get; set; }
+        public string RUTALOGO { get; set; }
         public string RAZONSOCIAL { get; set; }
-        
+        public string DIRECCION { get; set; }
+        public string EMAIL { get; set; }
+
     }
 }
