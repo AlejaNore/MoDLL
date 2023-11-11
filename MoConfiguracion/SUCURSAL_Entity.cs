@@ -24,5 +24,11 @@ namespace MoDLL
         public string WEB_SITE { get; set; }
         public string EMAIL { get; set; }
 
+        //CAMPOS QUE NO SON DE LA TABLA SUCURSAL
+        public string DESPAIS { get; set; }
+        public string DESPROVINCIA { get; set; }
+        public string DESMUNICIPIO { get; set; }
+
+
     }
 }
