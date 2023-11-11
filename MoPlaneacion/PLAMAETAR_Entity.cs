@@ -27,7 +27,7 @@ namespace MoDLL
         public string CODACTIVIDAD { get; set; }
         public string CODTAREA { get; set; }
         public string DESTAREA { get; set; }
-        public Double CANTTAREA { get; set; }
+        public double CANTTAREA { get; set; }
         public string CODRESULTADO { get; set; }
         public string CODTAREA_TEM { get; set; }
         //DESCRIPCIONES
