@@ -23,6 +23,14 @@ namespace MoDLL
         public string FAX1 { get; set; }
         public string WEB_SITE { get; set; }
         public string EMAIL { get; set; }
+        public string SERVERSMTP { get; set; }
+        public int PORT { get; set; }
+        public string PASSWORD { get; set; }
+        public int TIMEOUT { get; set; }
+        public string SSL { get; set; }
+        public string CREDENCIALES { get; set; }
+        public string RUTAPDFCOMPAGNOM { get; set; }
+        public string EMAILNOM { get; set; }
 
         //CAMPOS QUE NO SON DE LA TABLA SUCURSAL
         public string DESPAIS { get; set; }
